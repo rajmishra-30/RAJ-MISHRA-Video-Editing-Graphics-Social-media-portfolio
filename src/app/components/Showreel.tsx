@@ -7,21 +7,22 @@ export default function Showreel() {
   const [open, setOpen] = useState(false);
 
   return (
-    <section id="showreel" className="py-8 px-4 bg-black">
+    <section id="showreel" className="pt-0 md:pt-2 pb-6 md:pb-8 px-4 bg-black -mt-20
+     md:mt-0">
 
       <div className="max-w-5xl mx-auto">
-
-        <motion.div
-          initial={{ opacity: 0, y: 15 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          className="text-center"
-        >
+<motion.div
+  initial={{ opacity: 0, y: 15 }}
+  whileInView={{ opacity: 1, y: 0 }}
+  className="text-center"
+>
+        
           <p className="text-gray-500 tracking-[4px] uppercase text-[10px]">
             Showreel
           </p>
 
           <h2 className="text-2xl md:text-4xl font-bold mt-1">
-            Motion Edits
+            Professional Edits
           </h2>
         </motion.div>
 

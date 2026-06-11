@@ -5,14 +5,18 @@ import CountUp from "react-countup";
 
 export default function Hero() {
   return (
-    <section
-      id="hero"
-      className="min-h-[70vh] flex items-center justify-center bg-black px-4 pt-10 pb-8"
-    >
+    
+      <section
+  id="hero"
+  className="min-h-[60vh] md:min-h-[70vh] flex flex-col md:flex-row md:items-center justify-center bg-black px-4 py-10 md:py-0"
+>
+    
       <div className="text-center max-w-4xl">
 
         <motion.p
-          initial={{ opacity: 0, y: 10 }}
+          initial={{ opacity: 0, y: 10
+
+           }}
           animate={{ opacity: 1, y: 0 }}
           className="text-gray-500 tracking-[4px] uppercase text-[10px]"
         >
@@ -24,7 +28,7 @@ export default function Hero() {
           animate={{ opacity: 1, y: 0 }}
           className="text-4xl md:text-6xl font-black mt-2"
         >
-          RAJ
+           RAJ 
         </motion.h1>
 
         <motion.h2
@@ -72,7 +76,7 @@ export default function Hero() {
 
           <div>
             <h3 className="text-2xl md:text-4xl font-bold">
-              <CountUp end={10} duration={3} />M+
+              <CountUp end={20} duration={3} />M+
             </h3>
             <p className="text-gray-500 text-xs md:text-sm mt-1">
               Views Generated

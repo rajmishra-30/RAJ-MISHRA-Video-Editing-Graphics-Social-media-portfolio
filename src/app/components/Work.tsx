@@ -7,7 +7,9 @@ export default function Work() {
   ];
 
   return (
-    <section className="py-32 px-6">
+    <section
+     id = "work"
+     className="py-32 px-6">
       <div className="max-w-7xl mx-auto">
 
         <p className="text-gray-500 uppercase tracking-[6px] mb-8">

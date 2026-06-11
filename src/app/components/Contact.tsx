@@ -1,63 +1,67 @@
 "use client";
 
-import { motion } from "framer-motion";
+import { Mail, Phone, MessageCircle } from "lucide-react";
+import { FaInstagram } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <section id="contact" className="py-20 px-6 bg-black">
-
+    <section 
+     id = "contact"
+     className="py-20 px-4">
       <div className="max-w-4xl mx-auto text-center">
+        <p className="text-gray-500 tracking-[4px] uppercase text-[10px]">
+          Contact
+        </p>
 
-        <motion.p
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          viewport={{ once: false, amount: 0.6 }}
-          className="text-gray-500 tracking-[6px] uppercase text-xs"
-        >
-          Let’s Work Together
-        </motion.p>
+        <h2 className="text-3xl md:text-5xl font-bold mt-3">
+          Let's Work Together
+        </h2>
 
-        <motion.h2
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          className="text-4xl md:text-5xl font-bold mt-3"
-        >
-          Build Something Premium
-        </motion.h2>
+        <p className="text-gray-500 mt-5 max-w-2xl mx-auto">
+          Need premium short-form edits, personal branding content,
+          anchor edits, wedding emcee content, voiceovers, or vox pop
+          videos? Let's create content that captures attention and
+          leaves an impact.
+        </p>
 
-        <motion.p
-          initial={{ opacity: 0 }}
-          whileInView={{ opacity: 1 }}
-          className="mt-5 text-gray-500 text-sm max-w-2xl mx-auto"
-        >
-          I help creators, anchors, and brands build high-impact short-form content
-          and visual identity that actually converts attention into growth.
-        </motion.p>
-
-        {/* BUTTONS */}
-        <motion.div
-          initial={{ opacity: 0, y: 20 }}
-          whileInView={{ opacity: 1, y: 0 }}
-          className="mt-10 flex flex-col md:flex-row gap-4 justify-center"
-        >
+        <div className="flex flex-wrap justify-center gap-4 mt-10">
           <a
-            href="mailto:yourmail@gmail.com"
-            className="px-6 py-3 rounded-full bg-white text-black font-medium hover:scale-105 transition"
-          >
-            Email Me
-          </a>
-
-          <a
-            href="https://instagram.com"
+            href="https://www.instagram.com/raj_.ov?igsh=NDQ2NWwweW1xeXp4"
             target="_blank"
-            className="px-6 py-3 rounded-full border border-white/20 text-white hover:bg-white/10 transition"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 px-6 py-3 rounded-full border border-white/10 bg-white/5 hover:bg-white hover:text-black transition-all duration-300"
           >
+            <FaInstagram size={18} />
             Instagram
           </a>
-        </motion.div>
 
+          <a
+            href="https://wa.me/917827364319"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 px-6 py-3 rounded-full border border-white/10 bg-white/5 hover:bg-white hover:text-black transition-all duration-300"
+          >
+            <MessageCircle size={18} />
+            WhatsApp
+          </a>
+
+          <a
+            href="mailto:rajmishraofficial27@gmail.com"
+            className="flex items-center gap-3 px-6 py-3 rounded-full border border-white/10 bg-white/5 hover:bg-white hover:text-black transition-all duration-300"
+          >
+            <Mail size={18} />
+            Email
+          </a>
+
+          <a
+            href="tel:+917289029725"
+            className="flex items-center gap-3 px-6 py-3 rounded-full border border-white/10 bg-white/5 hover:bg-white hover:text-black transition-all duration-300"
+          >
+            <Phone size={18} />
+            Call
+          </a>
+        </div>
       </div>
-
     </section>
   );
 }

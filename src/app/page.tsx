@@ -7,6 +7,7 @@ import PortfolioWork from "./components/PortfolioWork";
 import Skills from "./components/Skills";
 import Toolkit from "./components/Toolkit";
 import Experience from "./components/Experience";
+import Footer from "./components/Footer";
 
 
 
@@ -22,8 +23,9 @@ export default function Home() {
       <Skills />
       <Toolkit />
       <Experience />
-      
+    
        <Contact />
+       <Footer /> 
     </>
   );
 }

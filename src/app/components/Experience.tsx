@@ -21,7 +21,9 @@ const experiences = [
 
 export default function Experience() {
   return (
-    <section className="py-16 px-4">
+    <section
+     id = "experience"
+     className="py-16 px-4">
       <div className="max-w-6xl mx-auto">
 
         {/* Heading */}
