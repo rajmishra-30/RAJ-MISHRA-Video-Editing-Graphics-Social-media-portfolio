@@ -1,36 +1,132 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# 🎬 Raj Mishra – Video Editing & Creative Portfolio
 
-## Getting Started
+A modern, responsive, and performance-optimized personal portfolio built to showcase professional video editing, anchoring, emcee work, voiceovers, and reel design work in a clean and premium UI experience.
 
-First, run the development server:
+---
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## 🚀 Live Project
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+https://your-vercel-link.vercel.app
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+---
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+## 📌 Project Overview
 
-## Learn More
+This project is a personal branding portfolio designed to present creative work in a structured and visually engaging way. It focuses on:
 
-To learn more about Next.js, take a look at the following resources:
+* High-impact video showcase
+* Category-based portfolio segmentation
+* Smooth UI interactions
+* Mobile-first responsive design
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The goal was not just to display work, but to create a **premium digital identity**.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+---
 
-## Deploy on Vercel
+## 🛠️ Tech Stack
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+* **Next.js (React Framework)**
+* **Tailwind CSS**
+* **Framer Motion (Animations)**
+* **Lucide Icons**
+* **CloudFront (Media CDN)**
+* **Vercel (Deployment Platform)**
+* **AWS for streaming service**
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+---
+
+## 🎯 Key Features
+
+### 🎥 Video Portfolio System
+
+* Category-wise filtering (Emcee, Anchoring, Voiceovers, Vox Pop)
+* Hover-based preview playback (desktop)
+* Tap-to-play support (mobile)
+
+### 🖼️ Showreel Section
+
+* Dedicated cinematic showreel highlight
+* Fullscreen playback mode
+* Minimal, distraction-free design
+
+### 🎨 Reel Cover Gallery
+
+* Grid-based design showcase
+* Lightbox fullscreen viewer
+* Clean visual hierarchy
+
+### 📱 Fully Responsive Design
+
+* Mobile-first layout
+* Optimized spacing for different screen sizes
+* Smooth transitions across devices
+
+### ⚡ Performance Optimizations
+
+* Lazy video loading (`preload="metadata"`)
+* CDN-based media delivery (CloudFront)
+* Lightweight UI structure
+
+---
+
+## 🧠 What I Learned
+
+* Building scalable component-based UI in Next.js
+* Handling video performance optimization for web
+* Responsive design challenges (mobile vs desktop behavior)
+* Deployment workflow using Vercel + GitHub
+* Media optimization using CDN (CloudFront)
+* Real-world debugging (build errors, Git issues, deployment fixes)
+
+---
+
+## 💡 Unique Implementation Highlights
+
+* Category-driven dynamic rendering system
+* Interactive video preview without external libraries
+* Clean fullscreen modal system for media viewing
+* Minimal UI with strong visual hierarchy
+* Balanced animation usage (not overdone, performance-safe)
+
+---
+
+## ⚙️ Challenges Faced
+
+* Handling video black-frame preview issues
+* Mobile vs desktop interaction differences (hover vs touch)
+* Git push & rebase conflicts during deployment
+* Vercel build dependency resolution issues
+* Layout inconsistencies across screen sizes
+
+---
+
+## 📦 Deployment
+
+Deployed using:
+
+* GitHub (Version Control)
+* Vercel (CI/CD Pipeline)
+
+---
+
+## 📈 Future Improvements
+
+* Add analytics for portfolio engagement
+* Improve video preloading strategy
+* Add CMS for dynamic content updates
+* Custom domain integration
+* Advanced animation transitions
+
+---
+
+## 👨‍💻 Author
+
+**Raj Mishra**
+Video Editor | Content Creator | Creative Designer
+
+---
+
+## 📌 Note
+
+This portfolio is continuously evolving as new projects, styles, and creative directions are added.
+
