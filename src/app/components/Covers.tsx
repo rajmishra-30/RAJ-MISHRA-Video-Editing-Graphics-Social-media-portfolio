@@ -76,7 +76,7 @@ export default function Covers() {
             {/* BACK BUTTON */}
             <button
               onClick={() => setActive(null)}
-              className="absolute top-4 left-4 bg-white/10 p-2 rounded-full text-white"
+              className="absolute top-4 right-4 bg-white/10 p-2 rounded-full text-white"
             >
               <X size={20} />
             </button>

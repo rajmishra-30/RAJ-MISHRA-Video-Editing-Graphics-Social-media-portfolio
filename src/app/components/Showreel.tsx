@@ -8,7 +8,7 @@ export default function Showreel() {
   const [open, setOpen] = useState(false);
 
   return (
-    <section id="showreel" className="pt-0 md:pt-2 pb-6 md:pb-8 px-4 bg-black -mt-12 md:mt-0">
+    <section id="showreel" className="pt-0 md:pt-2 pb-6 md:pb-8 px-4 bg-black -mt-20 md:mt-0">
 
       <div className="max-w-5xl mx-auto">
 
@@ -58,7 +58,7 @@ export default function Showreel() {
           {/* CLOSE BUTTON (WEB + MOBILE) */}
           <button
             onClick={() => setOpen(false)}
-            className="absolute top-5 left-5 bg-white/10 hover:bg-white/20 p-2 rounded-full z-50"
+            className="absolute top-5 right-5 bg-white/10 hover:bg-white/20 p-2 rounded-full z-50"
           >
             <X size={22} />
           </button>
