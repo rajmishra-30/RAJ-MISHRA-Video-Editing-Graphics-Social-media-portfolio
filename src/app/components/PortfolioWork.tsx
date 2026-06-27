@@ -5,6 +5,16 @@ import { motion, AnimatePresence } from "framer-motion";
 import { X, Maximize2 } from "lucide-react";
 
 const categories = {
+  voice: {
+    title: "Voiceovers",
+    videos: [
+      "https://d3gm94gqgc6zff.cloudfront.net/lv_0_20260611141141.mp4",
+      "https://d3gm94gqgc6zff.cloudfront.net/videofile.mp4",
+      "https://d3gm94gqgc6zff.cloudfront.net/Serum.mp4",
+      "https://d3gm94gqgc6zff.cloudfront.net/lv_0_20260611141313.mp4",
+    ],
+  },
+
   emcee: {
     title: "Wedding Emcee",
     videos: [
@@ -12,6 +22,15 @@ const categories = {
       "https://d3gm94gqgc6zff.cloudfront.net/AVANTIKA EVENT(SHADI) CC.mp4",
       "https://d3gm94gqgc6zff.cloudfront.net/final men in love.mp4",
       "https://d3gm94gqgc6zff.cloudfront.net/lv_0_20250504181723.mp4",
+    ],
+  },
+
+  realestate: {
+    title: "Real Estate",
+    videos: [
+      "https://d3gm94gqgc6zff.cloudfront.net/AM RS REEL -1.mp4",
+      "https://d3gm94gqgc6zff.cloudfront.net/realestatee.mp4",
+      
     ],
   },
 
@@ -25,16 +44,6 @@ const categories = {
     ],
   },
 
-  voice: {
-    title: "Voiceovers",
-    videos: [
-      "https://d3gm94gqgc6zff.cloudfront.net/lv_0_20260611141141.mp4",
-      "https://d3gm94gqgc6zff.cloudfront.net/lv_0_20260611141313.mp4",
-      "https://d3gm94gqgc6zff.cloudfront.net/DOC-20250422-WA0002..mp4",
-      "https://d3gm94gqgc6zff.cloudfront.net/lv_0_20250422211649.mp4",
-    ],
-  },
-
   voxpop: {
     title: "Vox Pop",
     videos: [
@@ -45,10 +54,9 @@ const categories = {
     ],
   },
 };
-
 export default function PortfolioWork() {
   const [active, setActive] =
-    useState<keyof typeof categories>("emcee");
+    useState<keyof typeof categories>("voice");
 
   const [fullscreenVideo, setFullscreenVideo] = useState<string | null>(null);
 

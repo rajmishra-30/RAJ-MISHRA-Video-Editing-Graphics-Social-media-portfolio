@@ -45,7 +45,7 @@ export default function Hero() {
           className="mt-3 text-gray-500 text-xs md:text-sm max-w-2xl mx-auto"
         >
           Combining powerful video editing, premium reel covers, and strategic
-          visual storytelling to help creators, anchors, and brands build a
+          visual storytelling to help creators, founders , public speakers and brands build a
           stronger digital presence.
         </motion.p>
 

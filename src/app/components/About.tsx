@@ -8,7 +8,7 @@ export default function About() {
         </p>
 
         <h2 className="text-4xl md:text-6xl font-bold max-w-4xl leading-tight">
-          I help creators, anchors and brands stand out with
+          I help creators,founders, public speakers and brands stand out with
           premium short-form content and visual storytelling.
         </h2>
 
