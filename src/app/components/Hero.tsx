@@ -44,7 +44,7 @@ export default function Hero() {
           animate={{ opacity: 1 }}
           className="mt-3 text-gray-500 text-xs md:text-sm max-w-2xl mx-auto"
         >
-          Combining powerful video editing, premium reel covers, and strategic
+          Combining powerful Content Strategy, video editing, premium designs, and 
           visual storytelling to help creators, founders , public speakers and brands build a
           stronger digital presence.
         </motion.p>

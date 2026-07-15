@@ -14,7 +14,7 @@ export default function About() {
 
         <p className="mt-8 text-gray-400 max-w-3xl text-lg">
           From reels and personal branding content to event highlights,
-          my focus is creating edits that capture attention and keep
+          my focus is creating content that capture attention and keep
           audiences engaged.
         </p>
 
