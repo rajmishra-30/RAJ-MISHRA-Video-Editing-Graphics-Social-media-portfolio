@@ -19,8 +19,8 @@ const categories = {
     title: "Wedding Emcee",
     videos: [
       "https://d3gm94gqgc6zff.cloudfront.net/file.mp4",
+      "https://d3gm94gqgc6zff.cloudfront.net/Final Sangeet.mp4",
       "https://d3gm94gqgc6zff.cloudfront.net/AVANTIKA EVENT(SHADI) CC.mp4",
-      "https://d3gm94gqgc6zff.cloudfront.net/final men in love.mp4",
       "https://d3gm94gqgc6zff.cloudfront.net/lv_0_20250504181723.mp4",
     ],
   },
