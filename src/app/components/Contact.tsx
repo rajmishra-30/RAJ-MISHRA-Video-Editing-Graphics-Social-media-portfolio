@@ -1,13 +1,14 @@
 "use client";
 
 import { Mail, Phone, MessageCircle } from "lucide-react";
-import { FaInstagram } from "react-icons/fa";
+import { FaInstagram, FaLinkedin } from "react-icons/fa";
 
 export default function Contact() {
   return (
-    <section 
-     id = "contact"
-     className="py-20 px-4">
+    <section
+      id="contact"
+      className="py-20 px-4"
+    >
       <div className="max-w-4xl mx-auto text-center">
         <p className="text-gray-500 tracking-[4px] uppercase text-[10px]">
           Contact
@@ -59,6 +60,16 @@ export default function Contact() {
           >
             <Phone size={18} />
             Call
+          </a>
+
+          <a
+            href="https://www.linkedin.com/in/raj-mishra30"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-3 px-6 py-3 rounded-full border border-white/10 bg-white/5 hover:bg-white hover:text-black transition-all duration-300"
+          >
+            <FaLinkedin size={18} />
+            LinkedIn
           </a>
         </div>
       </div>
